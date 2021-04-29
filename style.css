@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    
+}
+
+main{
+    background-color:#fff;
+    border-radius: 10px;
+    min-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    color: hsl(218, 22%, 67%);
+    
+}
+
+div{
+    padding: 35px;
+}
+
+.div1{
+    background-color: hsl(179, 62%, 43%); 
+    color: hsl(204, 43%, 93%);
+    
+}
+
+.div2{
+    background-color: hsl(179, 47%, 58%);
+    color: hsl(204, 43%, 93%);
+    
+}
+
+.h1{
+    color: hsl(179, 62%, 43%);
+ 
+}
+
+.h3{
+    color: hsl(71, 73%, 54%);
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    width: 85%;
+    padding: 15px 0;
+    border: none;
+    margin-top: 4px;
+    margin-left: 6px;
+
+}
+ul{
+    list-style: none;
+    opacity: 0.8;
+    line-height: 1.5;
+}
+
+.row{
+    display: flex;
+}
+
+.row > div
+{
+    flex: 1;
+}
+
+span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+sup{
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+@media screen and (max-width:600px){
+    .row{
+        flex-direction: column;
+    }
+}
